@@ -1,0 +1,65 @@
+{
+  "chain": [
+    {
+      "hash": "42d400fac6fa4f56903505f25dcb117160f671dc9b47f087bb475bec96582904",
+      "index": 0,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "timestamp": "2025-09-03T18:12:18.635154+00:00",
+      "transactions": [
+        {
+          "message": "👋 Welcome to the chain",
+          "system": "genesis"
+        }
+      ]
+    },
+    {
+      "hash": "5605a419edbb2021f496beb5cd13d19ef638a7cb3c68ea4a906c5e6b1c008f8d",
+      "index": 1,
+      "previous_hash": "42d400fac6fa4f56903505f25dcb117160f671dc9b47f087bb475bec96582904",
+      "timestamp": "2025-09-03T18:12:18.635235+00:00",
+      "transactions": [
+        {
+          "amount": 10,
+          "from": "alice",
+          "to": "bob"
+        },
+        {
+          "note": "coffee"
+        }
+      ]
+    },
+    {
+      "hash": "f401899320fe61e73019fbf711ad50db4daeb2a15191f77c769a1ca2d5c53c3b",
+      "index": 2,
+      "previous_hash": "5605a419edbb2021f496beb5cd13d19ef638a7cb3c68ea4a906c5e6b1c008f8d",
+      "timestamp": "2025-09-03T18:12:18.635279+00:00",
+      "transactions": [
+        {
+          "amount": 5,
+          "from": "bob",
+          "to": "carol"
+        },
+        {
+          "note": "snack"
+        }
+      ]
+    },
+    {
+      "hash": "90cf9634dc7653e7f6b796741b833669580e97112e0403d24eb8cf84c6cc4be9",
+      "index": 3,
+      "previous_hash": "f401899320fe61e73019fbf711ad50db4daeb2a15191f77c769a1ca2d5c53c3b",
+      "timestamp": "2025-09-03T18:12:18.635307+00:00",
+      "transactions": [
+        {
+          "amount": 2,
+          "from": "carol",
+          "to": "dave"
+        },
+        {
+          "note": "tip"
+        }
+      ]
+    }
+  ],
+  "length": 4
+}
